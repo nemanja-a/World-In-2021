@@ -1,4 +1,8 @@
 .container {
+  background: url('/background.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;  
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -6,6 +10,21 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 0;  
+}
+
+.header img {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
 }
 
 .main {
